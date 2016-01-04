@@ -1,0 +1,17 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "easyui": "^1.4.2",
+    "jquery": "^2.1.4",
+    "requirejs": "^2.1.22",
+    "underscore": "^1.8.3"
+  }
+}

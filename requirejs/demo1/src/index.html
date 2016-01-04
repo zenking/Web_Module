@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RequireJS-Demo1</title>
+</head>
+
+<body>
+    <h1>RequireJS Demo</h1>
+    <p>这个是一个RequireJS学习的一个Demo，很简单。</p>
+    <!-- sync属性表明这个文件需要异步加载，避免网页失去响应。IE不支持这个属性，只支持defer，所以把defer也写上。 -->
+    <script src="/node_modules/requirejs/require.js" data-main="/src/js/main" defer async="true"></script>
+</body>
+
+</html>
